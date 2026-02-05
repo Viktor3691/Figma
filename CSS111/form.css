@@ -1,0 +1,177 @@
+/* form */
+
+position: absolute;
+width: 1920px;
+height: 762px;
+left: 0px;
+top: 4246px;
+
+/* Rectangle 10 */
+
+position: absolute;
+width: 1920px;
+height: 762px;
+left: 0px;
+top: 4246px;
+
+/* Silver */
+background: #eeeff1;
+
+/* Rectangle 11 */
+
+position: absolute;
+width: 255px;
+height: 50px;
+left: 690px;
+top: 4558px;
+
+background: #ffffff;
+
+/* Ваше имя */
+
+position: absolute;
+width: 74px;
+height: 15px;
+left: 710px;
+top: 4575px;
+
+/* inputs */
+font-family: "Roboto";
+font-style: normal;
+font-size: 14px;
+line-height: 23px;
+
+color: #5f5d5d;
+
+/* Rectangle 11.2 */
+
+position: absolute;
+width: 540px;
+height: 175px;
+left: 690px;
+top: 4628px;
+
+background: #ffffff;
+
+/* Сообщение */
+
+position: absolute;
+width: 82px;
+height: 15px;
+left: 710px;
+top: 4645px;
+
+/* inputs */
+font-family: "Roboto";
+font-style: normal;
+font-size: 14px;
+line-height: 23px;
+
+color: #5f5d5d;
+
+/* Rectangle 11.1 */
+
+position: absolute;
+width: 255px;
+height: 50px;
+left: 975px;
+top: 4558px;
+
+background: #ffffff;
+
+/* Ваш e-mail */
+
+position: absolute;
+width: 74px;
+height: 15px;
+left: 995px;
+top: 4575px;
+
+/* inputs */
+font-family: "Roboto";
+font-style: normal;
+font-size: 14px;
+line-height: 23px;
+
+color: #5f5d5d;
+
+/* first-screen__button */
+
+position: absolute;
+width: 190px;
+height: 55px;
+left: 864px;
+top: 4853px;
+
+/* Rectangle 3 */
+
+position: absolute;
+width: 190px;
+height: 55px;
+left: 864px;
+top: 4853px;
+
+/* Accent */
+background: #34547a;
+
+/* ОТПРАВИТЬ */
+
+position: absolute;
+width: 152px;
+height: 15px;
+left: 883px;
+top: 4873px;
+
+font-family: "Roboto";
+font-style: normal;
+font-size: 14px;
+line-height: 23px;
+text-align: center;
+letter-spacing: 0.15em;
+
+color: #ffffff;
+
+/* form__title */
+
+position: absolute;
+width: 540px;
+height: 147px;
+left: 690px;
+top: 4346px;
+
+/* Хотите веб-сайт? */
+
+position: absolute;
+width: 406px;
+height: 30px;
+left: 755px;
+top: 4346px;
+
+/* h2 */
+font-family: "Roboto";
+font-style: normal;
+font-size: 32px;
+line-height: 38px;
+text-align: center;
+
+color: #000000;
+
+/* Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. */
+
+position: absolute;
+width: 540px;
+height: 67px;
+left: 690px;
+top: 4426px;
+
+/* p */
+font-family: "Roboto";
+font-style: normal;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+
+color: #727272;
+/*  */
+
+/*  */

@@ -1,0 +1,137 @@
+/* projects */
+
+position: absolute;
+width: 1920px;
+height: 960px;
+left: 0px;
+top: 2994px;
+
+/* Rectangle 7 */
+
+position: absolute;
+width: 480px;
+height: 480px;
+left: 0px;
+top: 2994px;
+
+background: url(photo-1542627250-da40d2d18228.jpg), #c4c4c4;
+
+/* Rectangle 7.1 */
+
+position: absolute;
+width: 480px;
+height: 480px;
+left: 480px;
+top: 2994px;
+
+background:
+  linear-gradient(0deg, rgba(52, 84, 122, 0.8), rgba(52, 84, 122, 0.8)),
+  url(photo-1454165804606-c3d57bc86b40.jpg);
+
+/* Rectangle 7.2 */
+
+position: absolute;
+width: 480px;
+height: 480px;
+left: 960px;
+top: 2994px;
+
+background: url(photo-1542627250-da40d2d18228.jpg), #c4c4c4;
+
+/* Rectangle 7.3 */
+
+position: absolute;
+width: 480px;
+height: 480px;
+left: 1440px;
+top: 2994px;
+
+background: url(photo-1454165804606-c3d57bc86b40.jpg), #d8d8d8;
+
+/* Rectangle 7.4 */
+
+position: absolute;
+width: 480px;
+height: 480px;
+left: 479px;
+top: 3474px;
+
+background: url(photo-1542627250-da40d2d18228.jpg), #c4c4c4;
+
+/* Rectangle 7.6 */
+
+position: absolute;
+width: 480px;
+height: 480px;
+left: 1440px;
+top: 3474px;
+
+background: url(photo-1542627250-da40d2d18228.jpg), #c4c4c4;
+
+/* Rectangle 7.5 */
+
+position: absolute;
+width: 480px;
+height: 480px;
+left: 959px;
+top: 3474px;
+
+background: url(photo-1454165804606-c3d57bc86b40.jpg), #d8d8d8;
+
+/* Rectangle 7.7 */
+
+position: absolute;
+width: 480px;
+height: 480px;
+left: 0px;
+top: 3474px;
+
+background: url(photo-1454165804606-c3d57bc86b40.jpg), #d8d8d8;
+
+/* view */
+
+position: absolute;
+width: 100px;
+height: 100px;
+left: 670px;
+top: 3184px;
+
+/* Group */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 21.36%;
+bottom: 21.36%;
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 21.36%;
+bottom: 21.36%;
+
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 36.44%;
+right: 50.05%;
+top: 36.44%;
+bottom: 50.05%;
+
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 27.99%;
+right: 28.09%;
+top: 27.99%;
+bottom: 28.09%;
+
+background: #ffffff;
+/*  */
+/*  */

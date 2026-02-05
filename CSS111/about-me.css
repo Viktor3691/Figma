@@ -1,0 +1,42 @@
+/* about-me */
+
+position: absolute;
+width: 540px;
+height: 147px;
+left: 690px;
+top: 812px;
+
+/* Обо мне */
+
+position: absolute;
+width: 403px;
+height: 30px;
+left: 758px;
+top: 812px;
+
+/* h2 */
+font-family: "Roboto";
+font-style: normal;
+font-size: 32px;
+line-height: 38px;
+text-align: center;
+
+color: #000000;
+
+/* Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. */
+
+position: absolute;
+width: 540px;
+height: 67px;
+left: 690px;
+top: 892px;
+
+/* p */
+font-family: "Roboto";
+font-style: normal;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+
+color: #727272;
+/*  */

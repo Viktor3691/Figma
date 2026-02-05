@@ -18,23 +18,42 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
         rel="stylesheet">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <!-- <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" /> -->
+
+
     <link rel="stylesheet" href="css/style.css">
     <title>Test site </title>
 
 </head>
 
 <body>
+    <ul id="slide-out" class="sidenav">
+        <li><a href="#!"><i class="material-icons"> home</i>Главная</a></li>
+        <li><a href="#!"><i class="material-icons"> people</i>О нас</a></li>
+        <li><a href="#!"><i class="material-icons"> grade</i>Услуги</a></li>
+        <li><a href="#!"><i class="material-icons"> phone</i>Контакты</a></li>
+        <div class="divider"></div>
+        <li><a href="#!" class="sidenav-close"><i class="material-icons">close</i>Закрыть</a></li>
+    </ul>
+    <!-- <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a> -->
+
+
+
+
     <!-- НАЧАЛО: ШАПКА САЙТА -->
     <header class="header">
         <div class="container1">
             <div class="header_title">
-
                 <img src="img/logo.svg" alt="logo" class="logo">
-                <button class="burger">
+
+                <a class="burger sidenav-trigger" data-target="slide-out">
                     <span class="burger_line"></span>
                     <span class="burger_line"></span>
                     <span class="burger_line"></span>
-                </button>
+                </a>
             </div>
             <h1 class="h1">РЕАЛИЗУЕМ КРУПНЕЙШИЕ ПРОЕКТЫ В РОССИИ</h1>
             <h4 class="h4">Cтадионы, газопроводы, мосты, дамбы</h4>
@@ -114,6 +133,19 @@
     <!-- КОНЕЦ: SECTION about -->
 
     <!-- НАЧАЛО: SECTION request -->
+    <!-- Modal Trigger -->
+    <!-- <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a> -->
+
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <h4>Заголовок окна</h4>
+            <p> С помощью этих параметров можно настроить поведение каждого модального окна. Например, вы можете вызвать
+                пользовательскую функцию, которая будет выполняться при закрытии модального окна. Для этого просто
+                поместите свою функцию в код инициализации, как показано ниже.</p>
+        </div>
+    </div>
+
     <section class=" request">
         <div class="container1">
             <div class="request_flex">
@@ -122,10 +154,10 @@
                     <h5 class="request_h5">Реалезуем самые смелые решения в России!</h5>
                 </div>
                 <div class="request_flex-right">
-                    <button class="request_btn">
+                    <a class="request_btn modal-trigger" href="#modal1">
                         <img class="request_icon" src="img/Envelope.svg" alt="Envelope">
                         Ваш запрос
-                    </button>
+                    </a>
                 </div>
             </div>
         </div><!-- /.container1 -->
@@ -179,35 +211,35 @@
         <div class="portfolio_grid">
 
             <div class="portfolio_grid-item">
-                <img class="portfolio_grid-img" src="img/portfolio.png" alt="portfolio Item">
+                <img class="portfolio_grid-img materialboxed" src="img/portfolio.png" alt="portfolio Item">
             </div>
 
             <div class="portfolio_grid-item">
-                <img class="portfolio_grid-img" src="img/portfolio.png" alt="portfolio Item">
+                <img class="portfolio_grid-img materialboxed" src="img/portfolio.png" alt="portfolio Item">
             </div>
 
             <div class="portfolio_grid-item">
-                <img class="portfolio_grid-img" src="img/portfolio.png" alt="portfolio Item">
+                <img class="portfolio_grid-img materialboxed" src="img/portfolio.png" alt="portfolio Item">
             </div>
 
             <div class="portfolio_grid-item">
-                <img class="portfolio_grid-img" src="img/portfolio.png" alt="portfolio Item">
+                <img class="portfolio_grid-img materialboxed" src="img/portfolio.png" alt="portfolio Item">
             </div>
 
             <div class="portfolio_grid-item">
-                <img class="portfolio_grid-img" src="img/portfolio.png" alt="portfolio Item">
+                <img class="portfolio_grid-img materialboxed" src="img/portfolio.png" alt="portfolio Item">
             </div>
 
             <div class="portfolio_grid-item">
-                <img class="portfolio_grid-img" src="img/portfolio.png" alt="portfolio Item">
+                <img class="portfolio_grid-img materialboxed" src="img/portfolio.png" alt="portfolio Item">
             </div>
 
             <div class="portfolio_grid-item">
-                <img class="portfolio_grid-img" src="img/portfolio.png" alt="portfolio Item">
+                <img class="portfolio_grid-img materialboxed" src="img/portfolio.png" alt="portfolio Item">
             </div>
 
             <div class="portfolio_grid-item">
-                <img class="portfolio_grid-img" src="img/portfolio.png" alt="portfolio Item">
+                <img class="portfolio_grid-img materialboxed" src="img/portfolio.png" alt="portfolio Item">
             </div>
         </div>
     </section>
@@ -219,8 +251,8 @@
             <h2 class="text-h2 section_h2">ОТВЕТЫ НА ВОПРОСЫ</h2>
             <div class="question_items">
 
-                <div class="question_item">
-                    <h3 class="text-h3 question_h3 close">РАБОТАЕТЕ ЛИ ВЫ ПО 249 ФЗ?</h3>
+                <details class="question_item">
+                    <summary class="text-h3 question_h3">РАБОТАЕТЕ ЛИ ВЫ ПО 249 ФЗ?</summary>
                     <p class="text-p question_p">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
                         вэб-дизайне.
                         Lorem Ipsum является стандартной "рыбой"
@@ -229,10 +261,10 @@
                         коллекцию
                         размеров и форм
                         шрифтов, используя Lorem Ipsum для распечатки образцов.</p>
-                </div>
+                </details>
 
-                <div class="question_item">
-                    <h3 class="text-h3 question_h3 open">РАБОТАЕТЕ ЛИ ВЫ ПО 249 ФЗ?</h3>
+                <details class="question_item">
+                    <summary class="text-h3 question_h3">РАБОТАЕТЕ ЛИ ВЫ ПО 249 ФЗ?</summary>
                     <p class="text-p question_p">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
                         вэб-дизайне.
                         Lorem Ipsum является стандартной "рыбой"
@@ -241,10 +273,10 @@
                         коллекцию
                         размеров и форм
                         шрифтов, используя Lorem Ipsum для распечатки образцов.</p>
-                </div>
+                </details>
 
-                <div class="question_item">
-                    <h3 class="text-h3 question_h3 close">РАБОТАЕТЕ ЛИ ВЫ ПО 249 ФЗ?</h3>
+                <details class="question_item">
+                    <summary class="text-h3 question_h3">РАБОТАЕТЕ ЛИ ВЫ ПО 249 ФЗ?</summary>
                     <p class="text-p question_p">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
                         вэб-дизайне.
                         Lorem Ipsum является стандартной "рыбой"
@@ -253,10 +285,10 @@
                         коллекцию
                         размеров и форм
                         шрифтов, используя Lorem Ipsum для распечатки образцов.</p>
-                </div>
+                </details>
 
-                <div class="question_item">
-                    <h3 class="text-h3 question_h3 close">РАБОТАЕТЕ ЛИ ВЫ ПО 249 ФЗ?</h3>
+                <details class="question_item">
+                    <summary class="text-h3 question_h3">РАБОТАЕТЕ ЛИ ВЫ ПО 249 ФЗ?</summary>
                     <p class="text-p question_p">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
                         вэб-дизайне.
                         Lorem Ipsum является стандартной "рыбой"
@@ -265,7 +297,7 @@
                         коллекцию
                         размеров и форм
                         шрифтов, используя Lorem Ipsum для распечатки образцов.</p>
-                </div>
+                </details>
 
             </div>
         </div>
@@ -351,6 +383,19 @@
     <!-- КОНЕЦ: SECTION  reviews -->
 
     <!-- НАЧАЛО: SECTION request -->
+
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <h4>Заголовок окна2</h4>
+            <p> Используйте модальное окно для диалоговых окон, сообщений с подтверждением или другого контента, который
+                можно
+                отобразить. Чтобы модальное окно работало, нужно добавить идентификатор Modal ID к ссылке триггера.
+                Чтобы добавить
+                кнопку закрытия, просто добавьте к кнопке класс .modal-close .</p>
+        </div>
+    </div>
+
+
     <section class=" request">
         <div class="container1">
             <div class="request_flex">
@@ -359,10 +404,12 @@
                     <h5 class="request_h5">ОСТАВЬТЕ ЗАЯВКУ И МЫ СВЯЖЕМСЯ С ВАМИ!</h5>
                 </div>
                 <div class="request_flex-right">
-                    <button class="request_btn">
+                    <a class="request_btn modal-trigger" href="#modal2">
                         <img class="request_icon" src="img/Envelope.svg" alt="Envelope">
                         Ваш запрос
-                    </button>
+                    </a>
+
+
                 </div>
             </div>
         </div><!-- /.container1 -->
@@ -384,7 +431,13 @@
                 <div class="contacts_item">
                     <img class="contacts_icon" src="img/telefon.svg" alt="ТЕЛЕФОН">
                     <h3 class="text-h3 contacts_h3 contacts_h3-gray">ТЕЛЕФОН:</h3>
-                    <h3 class="text-h3 contacts_h3">8 (812) 111-22-33<br> 8 (812) 111-22-33</h3>
+                    <h3 class="text-h3 contacts_h3">
+                        <a href="tel:+78121112233">8 (812) 111-22-33</a>
+                        <br>
+                        <a href="tel:+78121112233">8 (812) 111-22-33</a>
+                    </h3>
+
+
                 </div>
 
                 <div class="contacts_item">
@@ -396,8 +449,9 @@
                 <div class="contacts_item">
                     <img class="contacts_icon" src="img/address.svg" alt="E-MAIL:">
                     <h3 class="text-h3 contacts_h3 contacts_h3-gray">E-MAIL:</h3>
-                    <h3 class="text-h3 contacts_h3 contacts_h3-accent">INFO@VIP.RU</h3>
+                    <h3 class="text-h3 contacts_h3 contacts_h3-accent"><a href="mailto:info@vip.ru">info@vip.ru</a></h3>
                 </div>
+
 
 
                 <p class="text-p footer_copyright"></p>
@@ -416,7 +470,8 @@
     </footer>
     <!-- КОНЕЦ: SECTION footer-->
 
-
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 </body>
 
 </html>

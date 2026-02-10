@@ -1,0 +1,246 @@
+/* ОБЩИЕ НАТРОЙКИ НАЧАЛО */
+html {
+  box-sizing: border-box;
+}
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+:root {
+  --accent-1: #fcfdfd;
+  --accent-2: #5e94c1;
+  --accent-3: #000000;
+  --accent-4: #ff6452;
+  --accent-5: #999999;
+  --accent-6: #ffffff;
+  --accent-7: #00d050;
+  --accent-8: #00d5e4;
+  --accent-9: #34547a;
+  --accent-10: #00bbd3;
+  --accent-11: #065090;
+}
+
+body {
+  width: 1920px;
+  height: 6000px;
+  background: #41d7fd;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+  padding: 0;
+}
+.section {
+  width: 1920px;
+}
+/* ОБЩИЕ НАТРОЙКИ КОНЕЦ */
+
+/* НАЧАЛО: РАЗМЕР СЕКЦИЙ*/
+.testSite {
+  height: 5160px;
+}
+.first-screen {
+  height: 695px;
+  background-color: #eeeff1;
+}
+.about-me {
+  height: 364px;
+  background: #ffffff;
+}
+.numbers {
+  height: 250px;
+  background: #34547a;
+}
+.skills {
+  height: 650px;
+  background: #ffffff;
+}
+.video {
+  height: 1004px;
+  background: #eeeff1;
+}
+.empty {
+  height: 30px;
+  background: #ffffff;
+}
+.projects {
+  height: 960px;
+  background: #09e74c;
+}
+.clients {
+  height: 300px;
+  background: #ffffff;
+}
+.form {
+  height: 755px;
+  background: #eeeff1;
+}
+.footer {
+  height: 151px;
+  background: #34547a;
+}
+
+/* КОНЕЦ: РАЗМЕР СЕКЦИЙ*/
+
+/* НАЧАЛО:  Main Header  first-screen */
+.container {
+  margin: 100px auto;
+  background-color: #00d5e4;
+}
+.first-screen-flex {
+  display: flex;
+  width: 1110px;
+  margin-left: 406px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  align-content: center;
+  flex-direction: row;
+}
+.text_WD {
+  font-family: "Revalia";
+  font-style: normal;
+  font-size: 48px;
+  line-height: 60px;
+  /* identical to box height */
+  text-align: center;
+  color: var(--accent-9);
+  margin-top: 48px;
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+  padding-right: 10px;
+  gap: 41px;
+  margin-top: 75px;
+}
+.nav-pills {
+  --bs-nav-pills-border-radius: var(--bs-border-radius);
+  --bs-nav-pills-link-active-color: #fff;
+  --bs-nav-pills-link-active-bg: #0d6efd;
+}
+.nav-link {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: bolder;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  background: none;
+  border: 0;
+}
+.first-screen_text1 {
+  color: var(--accent-9);
+}
+.first-screen_text2 {
+  color: #000000;
+}
+/* КОНЕЦ:  Main Header  first-screen */
+
+/* НАЧАЛО:  about-me */
+.about-me_text1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #000000;
+  padding-top: 118px;
+}
+.about-me_text2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0 05rem;
+  color: #727272;
+  width: 560px;
+  height: 62px;
+  padding-top: 37px;
+  margin: 0 auto;
+}
+/* КОНЕЦ:  about-me */
+
+/*НАЧАЛО bootstrap */
+@media screen and (min-width: 576px) {
+  .container-sm,
+  .container {
+    max-width: 540px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 720px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 960px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container-xl,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 1140px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .container-xxl,
+  .container-xl,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 1320px;
+  }
+}
+
+.nav-fill .nav-item .nav-link,
+.nav-justified .nav-item .nav-link {
+  width: 100%;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  .nav-link {
+    transition: none;
+  }
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--bs-nav-link-hover-color);
+}
+.nav-link:focus-visible {
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.nav-link.disabled,
+.nav-link:disabled {
+  color: var(--bs-nav-link-disabled-color);
+  pointer-events: none;
+  cursor: default;
+}
+
+/*КОНЕЦ bootstrap */

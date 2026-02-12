@@ -176,6 +176,190 @@ p {
 }
 /* КОНЕЦ:  about-me */
 
+/* НАЧАЛО:  projects   */
+.projects_logo {
+  display: grid;
+  gap: 0;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+}
+.projects_logo-item {
+  position: relative;
+  width: 100%;
+  padding-top: 100%; /*исп.отступ для соотнош-стор и для раб.изобр */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition:
+    transform 0.8s,
+    background-size 0.8s,
+    border 0.8s,
+    opacity 0.8s;
+}
+.item1,
+.item3,
+.item6,
+.item8 {
+  background-image: url(../img/projects1.svg);
+}
+.item2 {
+  background-image: url(../img/projects2.svg);
+}
+.item4,
+.item5,
+.item7 {
+  background-image: url(../img/projects4.svg);
+}
+.overlay {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  width: 100%;
+  height: 100%;
+  background: url(../img/Group-eye.png);
+  /* background-color: rgba(114, 114, 114, 0.5); */
+  z-index: 0;
+  background-position: 20% 20%;
+  background-repeat: no-repeat;
+  transition:
+    transform 0.8s,
+    background-size 0.8s,
+    border 0.8s,
+    opacity 0.8s;
+  /* transition: all 0.8s; */
+}
+.projects_logo-item:hover .overlay {
+  opacity: 0;
+}
+.projects_logo-item:hover {
+  transform: scale(1.3);
+  z-index: 1;
+  background-size: 150%;
+  border: 5px solid var(--accent-back__color);
+  border-radius: 4px;
+}
+/* КОНЕЦ:  projects  */
+
+/* НАЧАЛО:  clients   */
+.clients_logo {
+  display: flex;
+  padding-top: 72px;
+  padding-left: 405px;
+  gap: 30px;
+}
+.clients_img {
+  width: 255px;
+  height: 120px;
+}
+/* КОНЕЦ:   clients */
+
+/* НАЧАЛО:  form   */
+.form__title {
+  position: absolute;
+  width: 540px;
+  margin-left: 690px;
+  margin-top: 100px;
+}
+.form_title-h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #000000;
+}
+.form_title-p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #727272;
+  margin-top: 50px;
+}
+.form__inputs {
+  display: flex;
+  gap: 30px;
+}
+.form_Your-name {
+  margin-top: 60px;
+}
+.form__inputs-name {
+  width: 255px;
+  height: 50px;
+  padding-left: 20px;
+}
+.form_e-mail {
+  margin-top: 60px;
+}
+.form__inputs_e-mail {
+  width: 255px;
+  height: 50px;
+  padding-left: 20px;
+}
+.form_text {
+  margin-top: 20px;
+}
+.form_text-message {
+  width: 540px;
+  height: 175px;
+  padding-left: 20px;
+  padding-top: 20px;
+  color: #5f5d5d;
+}
+/* КОНЕЦ:   form  */
+
+/* НАЧАЛО: footer  */
+
+.footer_flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer_flex-left {
+  display: flex;
+  flex-direction: column;
+}
+.footer-text_h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 21px;
+  line-height: 25px;
+  color: #ffffff;
+  width: 130px;
+  height: 19px;
+  margin-top: 50px;
+  margin-left: 406px;
+}
+.footer-text_p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 13px;
+  line-height: 21px;
+  color: #ffffff;
+  margin-top: 20px;
+  margin-left: 406px;
+}
+.footer_flex-right {
+  width: 175px;
+  height: 40px;
+  margin-top: 56px;
+  margin-right: 389px;
+}
+.footer__soc-buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  justify-content: space-between;
+}
+.vk-social-network-logo {
+  width: 43.75px;
+  height: 40px;
+}
+
+/* КОНЕЦ:  footer  */
+
 /*НАЧАЛО bootstrap */
 @media screen and (min-width: 576px) {
   .container-sm,

@@ -79,7 +79,7 @@ img {
   font-size: 25px;
   margin-bottom: 25px;
 }
-.first-modal-mesage {
+.first-modal-message {
   display: block;
   resize: none;
   width: 80%;
@@ -95,19 +95,18 @@ img {
   display: flex;
   justify-content: center;
 }
-.first-modal__btn {
-}
+
 .first-modal__btn:hover {
   background: var(--accent-back__color);
   color: #fff;
 }
-.clouse__btn,
+.close__btn,
 .send__btn {
   width: 100px;
   height: 36px;
   border-radius: 5px;
 }
-.clouse__btn {
+.close__btn {
   margin-right: 20px;
 }
 /* header */
@@ -148,8 +147,7 @@ img {
 ul.header-menu__flex {
   list-style: none;
 }
-.header-menu__item {
-}
+
 .header-menu__item a {
   text-decoration: none;
   color: #000;
@@ -243,8 +241,7 @@ ul.header-menu__flex li:last-child {
   height: 50px;
 }
 /* skills */
-.skills {
-}
+
 .skills-flex {
   max-width: 1150px;
   margin: 0 auto;
@@ -269,8 +266,7 @@ ul.header-menu__flex li:last-child {
   max-width: 555px;
   max-height: 450px;
 }
-.skills-img {
-}
+
 .box-line1,
 .box-line2,
 .box-line3 {
@@ -299,9 +295,8 @@ ul.header-menu__flex li:last-child {
   padding-top: 100px;
   padding-bottom: 100px;
 }
-.video-info {
-}
-.vedeo__h2 {
+
+.video__h2 {
   text-align: center;
   margin-bottom: 50px;
 }
@@ -400,8 +395,7 @@ ul.header-menu__flex li:last-child {
   padding-top: 72px;
   padding-bottom: 100px;
 }
-.clients {
-}
+
 /* form */
 .form {
   background: #eeeff1;
@@ -460,10 +454,7 @@ ul.header-menu__flex li:last-child {
   padding-bottom: 50px;
   align-items: center;
 }
-.footer-flex__item1 {
-}
-.text-p {
-}
+
 .footer__p1 {
   font-weight: 500;
   font-size: 21px;

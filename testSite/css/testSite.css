@@ -73,7 +73,7 @@ img {
   background-color: #eeeff1;
 }
 .about-me {
-  height: 364px;
+  height: 366px;
   background: #ffffff;
 }
 .numbers {
@@ -118,15 +118,11 @@ display: flex;
 flex-wrap: wrap;
 }
 .box {
-border: 1px solid rgb(8, 32, 243);
-padding: 5px;
 width: 18%;
 height: 693px;
 
 }
 .box2 {
-border: 1px solid rgb(8, 32, 243);
-padding: 5px;
 width: 62%;
 height: 693px;
 color: #000;
@@ -189,7 +185,6 @@ text-transform: uppercase;
   width: 100%;
   height: 46%;
   margin-top: 120px;
-  background-color: #a7b9dd;
 }
 .first-screen_monitor {
   width: 357px;
@@ -212,7 +207,35 @@ line-height: 79px;
 
 color: #000000;
 }
+.p_w_h {
+  margin: 0;
+  padding: 0;
+width: 525px;
+  height: 70px;
+}
+.text-p{
+font-family: "Roboto";
+font-style: normal;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.04em;
+margin-top: 32px;
 
+color: #727272;
+}
+.design-block_button {
+width: 225px;
+height: 65px;
+margin-top: 62px;
+
+font-family: "Roboto";
+font-style: normal;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+}
 
 /* КОНЕЦ:  Main Header  first-screen */
 
@@ -240,6 +263,45 @@ color: #000000;
   margin: 0 auto;
 }
 /* КОНЕЦ:  about-me */
+
+/*  НАЧАЛО: numbers */
+.numbers-items-flex{
+  width: 62%;
+  display: flex;
+  padding-top: 100px;
+margin-left: 94px;
+gap: 49px;
+}
+.numbers-flex {
+  display: flex;
+width: 141px;
+height: 60px;
+
+}
+.numbers-img {
+width: 50px;
+height: 50px;
+}
+.numbers_text {
+  margin-left: 20px;
+  margin-top: 3px;
+}
+.numbers_text1{
+font-family: "Roboto";
+font-style: normal;
+font-size: 21px;
+line-height: 25px;
+}
+.numbers_text2{
+font-family: "Roboto";
+font-style: normal;
+font-size: 16px;
+line-height: 26px;
+
+color: #ffffff;
+}
+/* КОНЕЦ:  numbers  */
+
 
 /* НАЧАЛО:  video    */
 

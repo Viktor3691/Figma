@@ -56,7 +56,7 @@ img {
   font-style: normal;
 }
 .container {
-  max-width: 1110px;
+  max-width: 1150px;
   margin: 0 auto;
 }
 .section {
@@ -236,7 +236,57 @@ text-align: center;
 letter-spacing: 0.1em;
 text-transform: uppercase;
 }
+/* modal */
 
+.first-modal {
+  display: none;
+  background-color: rgb(141 137 137 / 89%);
+  text-align: center;
+  padding-top: 20px;
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  z-index: 10;
+}
+.first-modal__p {
+  font-weight: 500;
+  color: #000;
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+.first-modal-message {
+  display: block;
+  resize: none;
+  width: 80%;
+  height: calc(100% - 160px);
+  padding: 20px;
+  margin: 0 auto;
+  font-size: 15px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  overflow: auto;
+}
+.first-modal__buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.first-modal__btn:hover {
+  background: var(--accent-back__color);
+  color: #fff;
+}
+.clouse__btn,
+.send__btn {
+  width: 100px;
+  height: 36px;
+  border-radius: 5px;
+}
+.clouse__btn {
+  margin-right: 20px;
+}
 /* КОНЕЦ:  Main Header  first-screen */
 
 /* НАЧАЛО:  about-me */
@@ -302,11 +352,164 @@ color: #ffffff;
 }
 /* КОНЕЦ:  numbers  */
 
+/* НАЧАЛО:  skills    */
+.skills_flex{
+  display: flex;
+}
+.skills_list{
+position: absolute;
+width: 445px;
+height: 257px;
+margin-top: 204px;
+margin-left: 74px;
+}
+.skills_list-h2{
+position: absolute;
+width: 403px;
+height: 30px;
+font-family: "Roboto";
+font-style: normal;
+font-size: 32px;
+line-height: 38px;
+
+color: #000000;
+}
+.skills_list-box{
+width: 440px;
+height: 40px;
+}
+.box1{
+margin-top: 80px;
+}
+.box2{
+margin-top: 29px;
+}
+.box3{
+margin-top: 29px;
+}
+.skills_list-p{
+position: absolute;
+width: 128px;
+height: 15px;
+font-family: "Roboto";
+font-style: normal;
+font-size: 16px;
+line-height: 26px;
+
+color: #727272;
+}
+.skills_list-box_rectangle{
+  width: 440px;
+  padding-top: 35px;
+}
+.rectangle1 {
+position: absolute;
+width: 445px;
+height: 4px;
+background: #c4c4c4;
+}
+.rectangle2 {
+ position: absolute;
+width: 350px;
+height: 4px;
+/* Accent */
+background: #34547a;
+}
+.skills_img {
+ position: absolute;
+width: 555px;
+height: 450px;
+margin-top: 102px;
+margin-left: 669px;
+}
+
+
+/* КОНЕЦ:   skills */
+
 
 /* НАЧАЛО:  video    */
+.video__title {
+position: absolute;
+width: 550px;
+height: 150px;
 
+margin-top: 100px;
+margin-left: 380px;
+}
+.video__title-h2{
+width: 403px;
+height: 30px;
+font-family: "Roboto";
+font-style: normal;
+font-size: 32px;
+line-height: 38px;
+text-align: center;
+margin-top: 4px;
+margin-left: 66px;
+color: #000000;
+}
+.video__title-p{
+position: absolute;
+width: 540px;
+height: 67px;
+margin-top: 46px;
+font-family: "Roboto";
+font-style: normal;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+
+color: #727272;
+}
+.box__video{
+position: absolute;
+width: 1110px;
+height: 600px;
+margin-top: 307px;
+margin-left: 93px;
+background-image: url(../img/video_box.svg);
+}
+.play-button {
+width: 100px;
+height: 100px;
+margin-top: 250px;
+margin-left: 500px;
+}
+
+.itd_play {
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.itd_play:hover {
+  background-color: var(--color2);
+}
+.itd_triangle {
+  margin-right: -3px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 0 10px 20px;
+  border-color: transparent transparent transparent var(--bs-white);
+}
+.btn-itd {
+  display: block;
+  max-width: 200px;
+  margin: 0 auto;
+  padding: 8px 30px;
+  color: var(--bs-white);
+  background-color: var(--color2);
+}
+.btn-itd:hover {
+  color: var(--bs-white);
+  background-color: var(--color1);
+}
 
 /* КОНЕЦ:  video  */
+
+
+
 
 /* НАЧАЛО:  projects   */
 .projects_logo {

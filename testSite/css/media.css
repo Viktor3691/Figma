@@ -1,0 +1,210 @@
+/* --- media --- */
+@media screen and (max-width: 1280px) {
+  .first-screen {
+    padding-bottom: 100px;
+    padding-left: 150px;
+    padding-right: 30px;
+  }
+  .header-box-menu__flex {
+    padding-left: 0px;
+    justify-content: center;
+  }
+  .header-text__h1 {
+    margin-left: 0px;
+    margin-bottom: 25px;
+    padding-right: 170px;
+  }
+  .numbers-flex {
+    justify-content: center;
+  }
+  .skills-list {
+    min-width: 400px;
+    padding-top: 102px;
+    padding-bottom: 91px;
+    padding-right: 150px;
+  }
+  .footer-flex {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .header-text__h1 {
+    margin-left: 0px;
+    margin-bottom: 25px;
+    padding-right: 36px;
+  }
+  .first-screen {
+    padding-bottom: 90px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .numbers-flex {
+    flex-wrap: wrap;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .numbers-flex img {
+    margin-bottom: 35px;
+    padding-right: 15px;
+  }
+  .skills-list {
+    padding-right: 0px;
+    padding-left: 50px;
+  }
+  .projects-grid {
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    /* Как при получении в третьей строке 2 элем всыставить их по центру */
+  }
+  .clients-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 768px) {
+  ul.header-menu__flex li {
+    margin-right: 24px;
+  }
+  .header-box-menu__flex {
+    flex-direction: column;
+  }
+  .numbers-flex {
+    flex-wrap: wrap;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .skills-flex {
+    margin: 0 auto;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .skills-h2 {
+    text-align: center;
+  }
+  .design-block {
+    padding-left: 45px;
+  }
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer-flex {
+    justify-content: space-around;
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .first-screen {
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .design-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+  .design-flex-img {
+    padding-bottom: 21px;
+  }
+  .design-block {
+    padding-left: 0;
+    text-align: center;
+  }
+  .skills-list {
+    padding-left: 25px;
+  }
+  .numbers-flex {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .projects-grid {
+    grid-template-columns: repeat(1, 1fr);
+    /* row-gap: 5; */
+    background-color: #fff;
+  }
+  .projects-grid__item {
+    position: relative;
+    height: calc(100% - 10px);
+    margin-bottom: 10px;
+    padding-top: 100%; /*исп.отступ для соотнош-стор и для раб.изобр */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: transform 0.8s, background-size 0.8s, border 0.8s, opacity 0.8s;
+  }
+  .form-text__flex {
+    flex-direction: column;
+    align-items: center;
+  }
+  .text__flex-item {
+    width: 95%;
+  }
+  .form__message {
+    width: 95%;
+  }
+  .footer-flex {
+    flex-direction: column;
+  }
+  .footer-flex__item1 {
+    text-align: center;
+    margin-bottom: 28px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .header-box-menu__flex {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    padding-left: 0px;
+  }
+  ul.header-menu__flex li{
+    margin-right: 20px;
+    font-size: 13px;
+  }
+  .about-me {
+    padding-left: 14px;
+  }
+  .skills-list {
+    min-width: 340px;
+    padding-top: 102px;
+    padding-bottom: 91px;
+    padding-right: 0px;
+  }
+  .video-info {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .overlay {
+    background-position: 50% 50%;
+  }
+  .clients-box {
+    padding-top: 10px;
+    padding-bottom: 15px;
+  }
+  .form-box {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .form__p {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+  .footer-flex {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .footer-icon {
+    max-width: 24px;
+    max-height: 24px;
+  }
+}
+/* max-width: 1280px */
+/* max-width: 992px */
+/* max-width: 768px */
+/* max-width: 576px */
+/* max-width: 480px */
